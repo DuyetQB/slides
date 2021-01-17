@@ -92,7 +92,7 @@ position: relative;
 
   }
   .main .main-left{
-width: 20%;background: rgb(241, 240, 240);
+width: 18%;background: rgb(241, 240, 240);
 overflow-y: scroll;
 height:100vh;
 position: relative;
@@ -540,6 +540,7 @@ background: rgb(221, 217, 217);
   .footer{
 height:3%;
 background: #000;
+padding-left: 100px;
 
   }
   .footer p{
