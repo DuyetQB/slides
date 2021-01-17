@@ -238,7 +238,7 @@ font-size: 1.4rem;
     position: relative;
   }
   .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide{
-    width:800%;
+    width:850%;
     display: var(--display);
   }
   .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide .loop-slide{
@@ -317,7 +317,7 @@ font-size: 1.4rem;
   position: relative;
 }
 .main .main-right .auto-wrap .auto-container-child .auto-wrap-slide{
-  width:800%;
+  width:890%;
   display: var(--display);
 }
 .main .main-right .auto-wrap .auto-container-child .auto-wrap-slide .auto-slide{
