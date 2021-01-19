@@ -20,3 +20,12 @@ if(window.pageYOffset >= 230 ){
     footer.style.marginLeft = "0px";
 }
 }
+
+
+   let close = document.querySelector("#close");
+let navError = document.querySelector(".error-mesenger");
+close.onclick = ()=>{
+    
+navError.style.display = "none";
+}
+

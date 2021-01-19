@@ -48,7 +48,8 @@ position: relative;
  
   width:180px;
   height:180px;
-background-image: url(https://swiperjs.com/i/logo.svg);
+background-image: url(https://swiperjs.com/i/logo.svg) ;
+background-repeat: no-repeat;
 background-size: contain;
 box-shadow: 0 15px 30px 0 rgb(99 50 246 / 30%);
 
@@ -600,4 +601,23 @@ padding-left: 100px;
     color:var(--text-color);
     font-size:20px;
     margin-top: 20px;
+  }
+  .container .error-mesenger{
+    width:100vw;
+    height:100%;
+    background: #fff;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    z-index: 1600;
+    position: fixed;
+  }
+  .container .error-mesenger .close-error{
+    font-size: 30px;
+   width:50px;
+   height:50px;
+   background: var(--text-color);
+   border: none;
+   outline: none;
+   color:white;
   }

@@ -4,3 +4,26 @@
         width:1210px;
     }
 }
+@media screen and (max-width:739px){
+    .container .error-mesenger{
+        display: block;
+    }
+    .header .header-logo{
+        width:40%;
+    }
+    .header .header-detail{
+        width:60%;
+    }
+    .header .header-logo .header-logo-image{
+        background-position: center ;
+        height:150px;
+    }
+    .main .main-right{
+        margin-left: 90px !important;
+    }
+}
+@media screen and (max-width:1023px) and (min-width:740px){
+    .container .error-mesenger{
+        display: block;
+    }
+}
