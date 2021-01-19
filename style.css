@@ -6,6 +6,7 @@
 html{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   scroll-behavior: smooth;
+  color:#222;
 }
 :root{
   --text-color:#6332F6;
@@ -92,7 +93,7 @@ position: relative;
 
   }
   .main .main-left{
-width: 18%;background: rgb(241, 240, 240);
+width: 18%;
 overflow-y: scroll;
 height:100vh;
 position: relative;
@@ -537,13 +538,66 @@ cursor: pointer;
 .main .main-right .virtual-wrap .virtual-container-child #virtual-next:hover,#virtual-prev:hover{
 background: rgb(221, 217, 217);
 }
+
+.main .main-right .wrap-picker{
+  height:640px;
+  
+ 
+}
+.main .main-right .wrap-picker .picker-name{
+  padding-top: 20px;
+  font-size: 1.4rem;
+}
+.main .main-right .wrap-picker .cover-picker-navigation{
+  display: var(--display);
+  height:80%;
+
+  margin-top: 20px;
+}
+.main .main-right .wrap-picker .ul-picker,.image-main-picker{
+
+list-style-type: none;
+}
+.main .main-right .wrap-picker .image-main-picker{
+  width:300px;
+ 
+ 
+flex:3;
+}
+.main .main-right .wrap-picker .ul-picker {
+ 
+ flex:1;
+}
+.main .main-right .wrap-picker .image-main-picker img{
+  width:90%;
+  height:var(--height);
+  object-fit: contain;
+ 
+}
+.main .main-right .wrap-picker .ul-picker .li-picker{
+ margin-left: 20px;
+
+}
+.main .main-right .wrap-picker .ul-picker .li-picker img:hover{
+  border: 2px solid var(--text-color);
+}
+.main .main-right .wrap-picker .ul-picker .li-picker img{
+  width: 90px;
+  height:90px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+  object-fit: cover;
+}
   .footer{
+    border-top: 1px solid rgb(214, 211, 211);
 height:3%;
-background: #000;
+
 padding-left: 100px;
 
   }
-  .footer p{
-    color:white;
-    font-size:24px;
+  .footer p,.footer a{
+    color:var(--text-color);
+    font-size:20px;
+    margin-top: 20px;
   }

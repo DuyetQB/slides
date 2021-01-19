@@ -42,13 +42,13 @@
             <li class="main-left-li"><a href="#auto-mode">Autoplay</a></li>
             <li class="main-left-li"><a href="#slider-nojs"> Slider with html,css</a></li>
             <li class="main-left-li"><a href="#virtual">Virtual Slides </a></li>
-            <li class="main-left-li"><a href="">Fade Effect</a></li>
+            <li class="main-left-li"><a href="#picker">Pick images</a></li>
             <li class="main-left-li"><a href=""></a></li>
             <li class="main-left-li"><a href="">Dynamic Slides</a></li>
             <li class="main-left-li"><a href="">Slideable Navigation Drawer</a></li>
             <li class="main-left-li"><a href="">Thumbs Gallery</a></li>
             <li class="main-left-li"><a href="">Vertical Slider</a></li>
-            <li class="main-left-li"><a href=""></a></li>
+            <li class="main-left-li"><a href="">Fade Effect</a></li>
             <li class="main-left-li"><a href=""></a></li>
             <li class="main-left-li"><a href=""></a></li>
             <li class="main-left-li"><a href=""></a></li>
@@ -123,13 +123,13 @@
           <input type="radio"  checked="checked" name="play" id="playImg1">
          <div class="nojs-item">
            <label for="playImg4"><span class="nojs-prev">&#10094</span></label>
-         <img src="https://taimienphi.vn/tmp/cf/aut/mau-background-don-gian-dep-1.jpg">
+         <img src="https://images.unsplash.com/photo-1610917615921-9b800769efe6?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
            <label for="playImg2"><span class="nojs-next">&#10095</span></label>
        </div>
           <input type="radio" name="play" id="playImg2">
        <div class="nojs-item">
            <label for="playImg1"><span class="nojs-prev">&#10094</span></label>
-         <img src="https://indainam.com/wp-content/uploads/2017/10/mau-background-don-gian-03-1024x819.jpg">
+         <img src="https://images.unsplash.com/photo-1610973310510-82f514ea1986?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
           <label for="playImg3"><span class="nojs-next">&#10095</span></label>
        </div>
           <input type="radio" name="play" id="playImg3">
@@ -170,6 +170,24 @@
         <button id="virtual-prev">&#10094</button>
       </div>
       </div>
+      <div class="wrap-picker" id="picker">
+        <h1 class="picker-name" >Pick images</h1>
+        <a href="https://codepen.io/duyetqb/pen/vYXbPoX"target="_blank">Source code <img class="source-code-icon" style= "width:20px;height:20px"src="https://swiperjs.com/i/stackblitz-icon.svg" alt=""></a>
+        <div class="cover-picker-navigation">
+        <ul class="ul-picker">
+          <li class="li-picker">
+            <img src="https://images.unsplash.com/photo-1610970882161-9528bb92589a?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2M3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" id="one"onclick=" changImage('one')">
+            <img src="https://images.unsplash.com/photo-1610917032079-f5e9143bf544?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2Nnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" id="two"onclick=" changImage('two')">
+            <img src="https://images.unsplash.com/photo-1610934651578-6174cf5bbab6?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3Mnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt=""id="three"onclick=" changImage('three')">
+            <img src="https://images.unsplash.com/photo-1610960773282-2b89462333e8?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4NXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" id="four"onclick=" changImage('four')">
+            <img src="https://images.unsplash.com/photo-1610917703059-3d8b63ebcfb1?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5M3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" id="five"onclick=" changImage('five')">
+          </li>
+        </ul>
+        <div class="image-main-picker">
+          <img src="https://images.unsplash.com/photo-1610970882161-9528bb92589a?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2M3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" id="mainImage">
+        </div>
+      </div>
+      </div>
 
        </div>
       </main>
@@ -182,5 +200,6 @@
      <script src="loop.js"></script>
      <script src="autoplay.js"></script>
      <script src="virtual.js"></script>
+     <script src="picker.js"></script>
 </body>
 </html>
