@@ -21,7 +21,9 @@ html{
     overflow:hidden;
     
   }
-  
+  ::selection{
+    background: gold;
+  }
 a{
   color:#000;
 }
