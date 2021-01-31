@@ -5,7 +5,7 @@ function myscroll(){
 let left = document.querySelector(".main-left");
 let sticky = left.offsetTop;
 
-if(window.pageYOffset >= 230 ){
+if(window.pageYOffset >= 260 ){
     left.classList.add("sticky");
     right.style.width = "100%";
    right.style.marginLeft = "245px";
