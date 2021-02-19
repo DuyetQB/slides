@@ -2,11 +2,12 @@
 
 *{
   padding: 0;margin: 0;box-sizing: border-box;
+  font-family: 'Rimouski';
 }
 html{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
   scroll-behavior: smooth;
-  color:#222;
+  color:#333;
 }
 :root{
   --text-color:#6332F6;
@@ -178,12 +179,14 @@ font-size: 1.4rem;
     position: relative;
   }
   .main .main-right .navigation-wrap .navigation-container-child .navigation-wrap-slide{
-    width:600%;
+    width:601%;
     display: var(--display);
   }
   .main .main-right .navigation-wrap .navigation-container-child .navigation-wrap-slide .navigation-slide{
     width:var(--width);
+  
     height:350px;
+    line-height: 300px;
    justify-content: center;
    text-align: center;
    align-items: center;
@@ -265,28 +268,9 @@ font-size: 1.4rem;
  color:white;
   font-size: 35px;
   background:grey;
+  line-height: 300px;
   }
-  /* .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide .loop-slide:nth-child(1){
-    background: #FFC6A1;
-  } */
-  /* .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide .loop-slide:nth-child(2){
-    background: #8EB42B;
-  }
-  .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide .loop-slide:nth-child(3){
-    background: #949597;
-  }
-  .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide .loop-slide:nth-child(4){
-    background: #12345A;
-  }
-  .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide .loop-slide:nth-child(5){
-    background: #FE6F61;
-  }
-  .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide .loop-slide:nth-child(6){
-    background: #AC85BA;
-  }
-  .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide .loop-slide:nth-child(7){
-background: rgb(40, 219, 231);
-  } */
+  
   .main .main-right .loop-wrap .loop-container-child #loop-next,#loop-prev{
 width:60px;
 height: 60px;
@@ -345,28 +329,9 @@ font-size: 1.4rem;
 color:white;
 font-size: 35px;
 background:grey;
+line-height: 300px;
 }
-/* .main .main-right .loop-wrap .loop-container-child .loop-wrap-slide .loop-slide:nth-child(1){
-  background: #FFC6A1;
-} */
-/* .main .main-right .auto-wrap .auto-container-child .auto-wrap-slide .auto-slide:nth-child(2){
-  background: #8EB42B;
-}
-.main .main-right .auto-wrap .auto-container-child .auto-wrap-slide .auto-slide:nth-child(3){
-  background: #949597;
-}
-.main .main-right .auto-wrap .auto-container-child .auto-wrap-slide .auto-slide:nth-child(4){
-  background: #12345A;
-}
-.main .main-right .auto-wrap .auto-container-child .auto-wrap-slide .auto-slide:nth-child(5){
-  background: #FE6F61;
-}
-.main .main-right .auto-wrap .auto-container-child .auto-wrap-slide .auto-slide:nth-child(6){
-  background: #AC85BA;
-}
-.main .main-right .auto-wrap .auto-container-child .auto-wrap-slide .auto-slide:nth-child(7){
-background: rgb(40, 219, 231);
-} */
+
 .main .main-right .auto-wrap .auto-container-child #auto-next,#auto-prev{
 width:60px;
 height: 60px;
@@ -498,37 +463,8 @@ color:white;
 font-size: 35px;
 margin-left: 20px;
 background: grey;
+line-height: 300px;
 }
-/* .main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(1){
-  background: #FFC6A1;
-}
-.main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(2){
-  background: #8EB42B;
-}
-.main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(3){
-  background: #949597;
-}
-.main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(4){
-  background: #12345A;
-}
-.main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(5){
-  background: #FE6F61;
-}
-.main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(6){
-  background: #AC85BA;
-}
-.main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(7){
-background: rgb(40, 219, 231);
-}
-.main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(8){
-background: rgb(2, 231, 33);
-}
-.main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(9){
-background: rgb(56, 55, 55);
-}
-.main .main-right .virtual-wrap .virtual-container-child .virtual-wrap-slide .virtual-slide:nth-child(10){
-background: rgb(233, 6, 214);
-} */
 
 .main .main-right .virtual-wrap .virtual-container-child #virtual-next,#virtual-prev{
 width:60px;

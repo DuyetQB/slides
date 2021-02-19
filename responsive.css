@@ -19,8 +19,19 @@
         height:150px;
     }
     .main .main-right{
-        margin-left: 90px !important;
+        margin-left: 0px !important;
     }
+    .main .main-left{
+        display: none;
+    }
+    .main .main-right .navigation-wrap{
+       padding-left: 6px;
+    }
+
+    .main .main-right .navigation-wrap .navigation-container-child .navigation-wrap-slide{
+        width:500%;
+       
+      }
 }
 @media screen and (max-width:1023px) and (min-width:740px){
     .container .error-mesenger{
